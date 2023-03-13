@@ -14,7 +14,7 @@ libAOM-lavish:
 ```
 --end-usage=q --cpu-used=3 --cq-level=$Q --threads=2 --enable-cdef=0 --aq-mode=0 --enable-qm=1 --lag-in-frames=64 --arnr-strength=1 --arnr-maxframes=15 --sharpness=0 --quant-sharpness=0 --disable-trellis-quant=0 --enable-fwd-kf=1 --min-q=1 --deltaq-mode=1 --bit-depth=10 --tune-content=psy --enable-chroma-deltaq=1 --tune=ssim --sb-size=dynamic --quant-b-adapt=1
 ```
-#### rav1e
+rav1e:
 ```
 --speed 2 --threads 2 --quantizer $(($Q * 4)) --keyint 0 --no-scene-detection
 ```
